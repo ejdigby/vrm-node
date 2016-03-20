@@ -8,12 +8,12 @@ keen to work with you to enable this.
 ```js
 import VRM from 'vrm';
 
-console.log(VRM.coerce('Lbo7 se0')); // => [{ format: '2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }]
-console.log(VRM.coerce('Lbo7 se0', ['2001'])); // => [{ format: '2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }]
-console.log(VRM.coerce('Lbo7 se0', ['1903'])); // => []
-console.log(VRM.info('LB07SEO')); // => { format: '2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }
-console.log(VRM.info('LB07SEO', '2001')); // => { format: '2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }
-console.log(VRM.info('LB07SEO', '1903')); // => null
+console.log(VRM.coerce('Lbo7 se0')); // => [{ format: 'gb_2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }]
+console.log(VRM.coerce('Lbo7 se0', ['gb_2001'])); // => [{ format: 'gb_2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }]
+console.log(VRM.coerce('Lbo7 se0', ['gb_1903'])); // => []
+console.log(VRM.info('LB07SEO')); // => { format: 'gb_2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }
+console.log(VRM.info('LB07SEO', 'gb_2001')); // => { format: 'gb_2001', vrm: 'LB07SEO', prettyVrm: 'LB07 SEO' }
+console.log(VRM.info('LB07SEO', 'gb_1903')); // => null
 ```
 
 ## Installation
@@ -57,11 +57,11 @@ Throws if the provided format is not known.
 
 The known formats are referenced as the following strings:
 
-- `1903` - AB 1234 - the first number-plates issued under the "Motor Car Act"
-- `1932` - ABC 123 - after the above format began to run out
-- `1963` - ABC 123A - ditto
-- `1983` - A123 ABC - ditto
-- `2001` - AB12 ABC - ditto
+- `gb_1903` - AB 1234 - the first number-plates issued under the "Motor Car Act"
+- `gb_1932` - ABC 123 - after the above format began to run out
+- `gb_1963` - ABC 123A - ditto
+- `gb_1983` - A123 ABC - ditto
+- `gb_2001` - AB12 ABC - ditto
 - `diplomatic` - 123 D 123 - used for diplomats (D) and accredited personnel (X)
 - `military` - AB 12 AB - used for military vehicles
 
@@ -71,7 +71,7 @@ The VRM details objects returned include the following information:
 
 ```js
 {
-	format: '2001', // required, string - format referenced as-above
+	format: 'gb_2001', // required, string - format referenced as-above
 	vrm: 'LB07SEO', // required, string - vrm in upper case, no spaces, no special chars, etc.
 	prettyVrm: 'LB07 SEO', // optional, string - vrm spaced as legally defined
 }
