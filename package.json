@@ -1,0 +1,32 @@
+{
+  "name": "vrm",
+  "version": "0.0.0",
+  "description": "Coerces, validates and prettifies vehicle registration marks (VRMs)",
+  "homepage": "https://github.com/billinghamj/vrm-node",
+  "bugs": "https://github.com/billinghamj/vrm-node/issues",
+  "license": "MIT",
+  "author": "James Billingham <james@jamesbillingham.com> (http://jamesbillingham.com)",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billinghamj/vrm-node.git"
+  },
+  "keywords": [
+    "vrm",
+    "vehicle",
+    "registration",
+    "mark",
+    "number",
+    "plate",
+    "car",
+    "dvla",
+    "uk",
+    "validate",
+    "validation",
+    "validator",
+    "verify",
+    "coerce",
+    "prettify",
+    "format"
+  ]
+}
