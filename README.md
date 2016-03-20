@@ -96,6 +96,11 @@ If there is demand for it, two other bits of functionality could be provided:
 - normalization: normalizing an arbitrary string input without coercing it (this happens internally anyway)
 - extending `info`: extracting the data from a given VRM - e.g. the 2001 UK format contains information about the area and year of registration
 
+### Data Sources
+
+- http://www.cvpg.co.uk/REG.pdf
+- https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_United_Kingdom,_Crown_dependencies_and_overseas_territories#History
+
 ## Support
 
 Please open an issue on this repository.
