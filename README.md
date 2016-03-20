@@ -103,6 +103,7 @@ Please open an issue on this repository.
 ## Authors
 
 - James Billingham <james@jamesbillingham.com>
+- adapted from Jack Fransham's original work
 
 ## License
 
