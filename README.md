@@ -27,7 +27,7 @@ $ npm install vrm
 ### `VRM.coerce(input[, allowedFormats])`
 
 Coerces the input into a set of possible VRMs which the input could represent.
-See [more information below](#Coercion) about why this is needed.
+See [more information below](#coercion) about why this is needed.
 
 The returned array contains the VRM details for each given format, sorted in
 order of likelihood, where the most likely format is the first value.
