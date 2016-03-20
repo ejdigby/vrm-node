@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/billinghamj/vrm-node.git"
   },
+  "dependencies": {
+    "is-my-json-valid": "^2.13.1"
+  },
   "keywords": [
     "vrm",
     "vehicle",
