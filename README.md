@@ -106,8 +106,8 @@ If there is demand for it, two other bits of functionality could be provided:
 
 ### Data Sources
 
-- http://www.cvpg.co.uk/REG.pdf
-- https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_United_Kingdom,_Crown_dependencies_and_overseas_territories#History
+- [PDF from CVPG](http://www.cvpg.co.uk/REG.pdf) - last updated October 2003
+- [Article on Wikipedia](https://en.wikipedia.org/w/index.php?title=Vehicle_registration_plates_of_the_United_Kingdom,_Crown_dependencies_and_overseas_territories&oldid=710572752) - last updated March 2016
 
 ## Support
 
