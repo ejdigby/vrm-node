@@ -57,15 +57,15 @@ Throws if the provided format is not known.
 
 The known formats are referenced as the following strings:
 
-- `gb_1903` - AB 1234 - the first number-plates issued under the "Motor Car Act"
-- `gb_1932` - ABC 123 - after the above format began to run out
-- `gb_1963` - ABC 123A - ditto
-- `gb_1983` - A123 ABC - ditto
-- `gb_2001` - AB12 ABC - the current GB format
-- `ni_1903` - AZ 1234 - roughly equivalent to `gb_1903`
-- `ni_1966` - AAZ 1234 - similar to `gb_1932`, the current NI format
-- `diplomatic` - 123 D 123 - used for diplomats (D) and accredited personnel (X)
-- `military` - AB 12 AB - used for military vehicles
+- `gb_1903` - `AB 1234` - the first number-plates issued under the "Motor Car Act"
+- `gb_1932` - `ABC 123` - after the above format began to run out
+- `gb_1963` - `ABC 123A` - ditto
+- `gb_1983` - `A123 ABC` - ditto
+- `gb_2001` - `AB12 ABC` - the current GB format
+- `ni_1903` - `AZ 1234` - roughly equivalent to `gb_1903`
+- `ni_1966` - `AAZ 1234` - similar to `gb_1932`, the current NI format
+- `diplomatic` - `123 D 123` - used for diplomats (`D`) and accredited personnel (`X`)
+- `military` - `AB 12 AB` - used for military vehicles
 
 ### VRM Details
 
@@ -85,10 +85,10 @@ would not be considered as 'breaking'.
 ### Coercion
 
 UK registration plates use a particular official typeface which was designed by
-Charles Wright. Bizarrely, it uses exactly the same physical shape for I and 1,
-and for O and 0. This means that the exact VRM can be ambiguous and people often
-mistype the VRM into forms. Additionally, it presents some difficulties for
-automatic number plate recognition (ANPR) systems.
+Charles Wright. Bizarrely, it uses exactly the same physical shape for `I` and
+`1`, and for `O` and `0`. This means that the exact VRM can be ambiguous and
+people often mistype the VRM into forms. Additionally, it presents some
+difficulties for automatic number plate recognition (ANPR) systems.
 
 The `coerce` method handles this. It returns an array because (occasionally)
 multiple formats can be possible.
@@ -102,7 +102,7 @@ behavior could change though, so don't rely on it.
 If there is demand for it, two other bits of functionality could be provided:
 
 - normalization: normalizing an arbitrary string input without coercing it (this happens internally anyway)
-- extending `info`: extracting the data from a given VRM - e.g. the 2001 UK format contains information about the area and year of registration
+- extending `info`: exposing the data contained within a given VRM - e.g. the 2001 UK format contains information about the area and year of registration
 
 ### Data Sources
 
