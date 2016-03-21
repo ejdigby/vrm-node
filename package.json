@@ -1,6 +1,6 @@
 {
   "name": "vrm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Coerces, validates and prettifies vehicle registration marks (VRMs)",
   "homepage": "https://github.com/billinghamj/vrm-node",
   "bugs": "https://github.com/billinghamj/vrm-node/issues",
