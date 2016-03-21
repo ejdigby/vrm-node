@@ -61,7 +61,9 @@ The known formats are referenced as the following strings:
 - `gb_1932` - ABC 123 - after the above format began to run out
 - `gb_1963` - ABC 123A - ditto
 - `gb_1983` - A123 ABC - ditto
-- `gb_2001` - AB12 ABC - ditto
+- `gb_2001` - AB12 ABC - the current GB format
+- `ni_1903` - AZ 1234 - roughly equivalent to `gb_1903`
+- `ni_1966` - AAZ 1234 - similar to `gb_1932`, the current NI format
 - `diplomatic` - 123 D 123 - used for diplomats (D) and accredited personnel (X)
 - `military` - AB 12 AB - used for military vehicles
 
