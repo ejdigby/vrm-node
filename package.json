@@ -17,6 +17,7 @@
   "dependencies": {
     "is-my-json-valid": "^2.13.1"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "vrm",
     "vehicle",
