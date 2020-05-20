@@ -1,5 +1,7 @@
 # vrm
 
+**Note:** Updates the VPM package (found here: https://github.com/billinghamj/vrm-node) but removes the `fs` dependency
+
 Coerces, validates and prettifies vehicle registration marks (VRMs). Presently,
 only UK DVLA registration plate formats are supported. Please open an issue if
 you'd like to see support added for other driving authorities' formats - I'd be
