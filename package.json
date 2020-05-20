@@ -1,15 +1,18 @@
 {
-  "name": "vrm",
+  "name": "vrm-no-fs",
   "version": "0.1.2",
   "description": "Coerces, validates and prettifies vehicle registration marks (VRMs)",
-  "homepage": "https://github.com/billinghamj/vrm-node",
-  "bugs": "https://github.com/billinghamj/vrm-node/issues",
+  "homepage": "https://github.com/ejdigby/vrm-node-no-fs",
+  "bugs": "https://github.com/ejdigby/vrm-node-no-fs/issues",
   "license": "MIT",
   "author": "James Billingham <james@jamesbillingham.com> (http://jamesbillingham.com)",
+  "contributors": [
+    "Edward Digby <edward@ejdigby.com> (https://github.com/ejdigby)"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/billinghamj/vrm-node.git"
+    "url": "https://github.com/ejdigby/vrm-node-no-fs.git"
   },
   "dependencies": {
     "is-my-json-valid": "^2.13.1"
